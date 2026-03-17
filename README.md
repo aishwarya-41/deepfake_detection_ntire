@@ -12,7 +12,7 @@ The project evolved through several stages, with each version improving robustne
 
 ```text
 .
-├── code_preliminary1_deepfake   # Initial model
+├── code_preliminary_deepfake   # Initial model
 ├── code_preliminary2_deepfake   # Improved augmentations
 ├── code_preliminary3_deepfake   # Ensemble + TTA experiments
 ├── code_preliminary4_deepfake   # FINAL MODEL (used for submission)
