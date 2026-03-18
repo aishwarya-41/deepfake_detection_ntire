@@ -23,6 +23,7 @@ project/
 ├── model.py
 ├── train.py
 ├── inference_solo.py
+├── inference.py
 │
 ├── best_model.pth        # generated after training
 ├── submission.txt        # generated after inference
@@ -94,12 +95,12 @@ This will:
 After training, run:
 
 ```
-python inference_solo.py
+python inference.py
 ```
 
 This will:
 
-* Load the best model (`best_model.pth`)
+* Load the best model (`best_model.pth`) and (`last_model.pth`)
 * Perform inference on the test dataset
 * Apply lightweight test-time augmentation (horizontal flip)
 * Generate the submission file:
