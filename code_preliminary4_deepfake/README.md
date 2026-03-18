@@ -95,12 +95,13 @@ This will:
 After training, run:
 
 ```
-python inference.py
+python inference_solo.py
+# inference.py combines both best and last model. However only best model yielded better results.
 ```
 
 This will:
 
-* Load the best model (`best_model.pth`) and (`last_model.pth`)
+* Load the best model (`best_model.pth`) 
 * Perform inference on the test dataset
 * Apply lightweight test-time augmentation (horizontal flip)
 * Generate the submission file:
