@@ -51,6 +51,6 @@ This version includes:
 
 * Aishwarya A
 * Akshara S
-* Ashwathi N
+* Ashwathi Nandhakumar
 
 Team: **Acube**
